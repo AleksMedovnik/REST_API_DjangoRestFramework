@@ -47,7 +47,7 @@ http://127.0.0.1:8000/users/auth/token/logout/
 
 ######################################
 
-MOBILE PHONE
+PRODUCT
 
 POST:
 http://127.0.0.1:8000/products/
@@ -55,7 +55,7 @@ http://127.0.0.1:8000/products/
 Body:
 {
     "title": "HONOR 70",
-    "info": "Смартфон HONOR 70 5G 12/512 ГБ CN, Dual nano SIM, полночный черный",
+    "info": "Смартфон HONOR 70 5G 12/512 ГБ CN, Dual nano SIM",
     "price": 37799.0,
     "screen_diagonal": 6.67,
     "battery_capacity": 4800,
@@ -73,15 +73,15 @@ http://127.0.0.1:8000/products/1/
 Body:
 {
     "title": "HONOR 70",
-    "info": "Смартфон HONOR 70 5G 12/512 ГБ CN, Dual nano SIM, полночный черный",
+    "info": "Смартфон HONOR 70 5G 12/512 ГБ CN, Dual nano SIM",
     "price": 37799.0,
     "screen_diagonal": 6.67,
     "battery_capacity": 4800,
-    "resolution_main_camera": 54.2,
+    "resolution_main_camera": 54.0,
     "maker": 4,
     "os": 1,
-    "color": 6,
-    "ram": 9
+    "color": 5,
+    "ram": 6
 }
 
 
@@ -132,3 +132,8 @@ http://127.0.0.1:8000/products?_page=2&_limit=3
 http://127.0.0.1:8000/products?_sort=-price
 
 http://127.0.0.1:8000/products?title_ne=Realme 11 Pro
+
+
+######################################
+
+ORDER
